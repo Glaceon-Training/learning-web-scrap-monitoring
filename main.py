@@ -10,3 +10,4 @@ if __name__ == '__main__':
     indonesia_earthquake = recent_earthquake2.LatestEarthquake('https://bmkg.go.id/')
     indonesia_earthquake.show_description()
     indonesia_earthquake.run()
+
