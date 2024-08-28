@@ -10,3 +10,4 @@ if __name__ == '__main__':
     print('Package description is', recent_earthquake2.description)
     result = recent_earthquake2.data_extraction()
     recent_earthquake2.show_data(result)
+
