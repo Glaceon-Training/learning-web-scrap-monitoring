@@ -7,6 +7,6 @@ Procedural program 002
 import recent_earthquake2
 
 if __name__ == '__main__':
-    print('Package description is', recent_earthquake2.description)
-    result = recent_earthquake2.data_extraction()
-    recent_earthquake2.show_data(result)
+    indonesia_earthquake = recent_earthquake2.LatestEarthquake('https://bmkg.go.id/')
+    indonesia_earthquake.show_description()
+    indonesia_earthquake.run()
