@@ -2,7 +2,7 @@
 Earthquake detection app:
 Modularization with Function,
 Modularization with Package
-Procedural program
+Procedural program 002
 """
 import recent_earthquake2
 
