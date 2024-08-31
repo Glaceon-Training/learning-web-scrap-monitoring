@@ -74,7 +74,7 @@ def show_data(result):
     print(f"Time: {result['time']}")
     print(f"Magnitude: {result['magnitude']}")
     print(f"Depth (in km): {result['depth']}")
-    print(f"Location: LS = {result['location']['ls']}, BT = {result['location']['bt']}")
+    print(f"Location: Latitude = {result['location']['ls']}, Longitude = {result['location']['bt']}")
     print(f"Epicentre: {result['epicentre']}")
     print(f"Mercalli Scale: {result['mercalli_scale']}")
 
